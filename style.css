@@ -47,6 +47,22 @@ h2{
   animation: fadeInText 3s ease-in 3.5s forwards, flicker4 5s linear 7.5s infinite, hueRotate 6s ease-in-out 3s infinite;
 }
 
+#dynamic-title h2 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-top: 150px;
+  font-size: 32px;
+  text-transform: uppercase;
+  transform: translate(-50%, -50%);
+  display: block;
+  color: #12000a;
+  font-family: Audiowide, sans-serif;
+  text-shadow: 0px 0px 4px #12000a;
+  animation: fadeInText 3s ease-in 3.6s forwards, flickerText 5s linear 7.6s infinite, hueRotate 6s ease-in-out 3s infinite;
+  z-index: 10;
+}
+
 #svgWrap_1,
 #svgWrap_2{
   position: absolute;
